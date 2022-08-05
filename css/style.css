@@ -1,0 +1,98 @@
+*{
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+option{
+    background-color: aliceblue;
+    color: green;
+    outline: none;
+}
+@media only screen and (max-width: 1000px) and (min-width: 400px)  {
+ .payment-receiving{
+    width: 330px;
+ }
+}
+.container{
+    width: calc(100% - 20%);
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+.header{
+    background-color: green;
+}
+.header-wrapper{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+.header-title{
+    padding: 20px 10px 20px 10px;
+    font-size: 30px;
+    border: 1px solid white;
+    font-family: 'Noto Sans', sans-serif;
+}
+.payment-transaction__icons{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.payment-transaction{
+    margin-right: 30px;
+}
+.payment-receiving{
+    margin-right: 30px;
+}
+.payment-receiving__icons{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.payment-icon{
+    width: 30px;
+    margin-right: 15px;
+    padding-top: 10px;
+}
+.options_value{
+    position: absolute;
+    border-right: 1px solid grey;
+    border-bottom: 1px solid grey;
+    border-top: 1px solid grey;
+    border-left: none;
+    padding-top: 4px;
+}
+.payment-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 50px;
+    flex-wrap: wrap;
+}
+
+.payment-transaction__input{
+    outline: none;
+
+}
+.payment-transaction__title{
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+.payment-receiving__title{
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+.button_pay{
+    display: flex;
+    justify-content: center;
+}
+.pay{
+    cursor: pointer;
+    outline: none;
+    border: none;
+    background-color: green;
+    color: white;
+    padding: 22px 20px 22px 20px;
+    margin-top: 120px;
+}
