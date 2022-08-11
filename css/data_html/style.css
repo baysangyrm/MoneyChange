@@ -1,0 +1,38 @@
+p{
+    margin: 0;
+    color: black;
+    font-weight: bolder;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 30px;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+input{
+    border: 3px solid green;
+    outline: none;
+    background-color: white;
+    color: black;
+    font-weight: bolder;
+    font-family: 'Noto Sans', sans-serif;
+}
+.form-input{
+    margin-top: 10vh;
+}
+.form-input__box{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.form-input__box-left{
+    margin-right: 10%;
+    margin-left: 10%;
+}
+.form-input__box-right{
+    margin-right: 10%;
+    margin-left: 10%;
+}
+.form-input__send{
+    text-align: center;
+    margin-top: 10vh;
+}

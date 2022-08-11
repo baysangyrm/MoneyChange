@@ -40,6 +40,7 @@ option{
     flex-wrap: wrap;
 }
 .payment-transaction{
+    margin-top: 30px;
     margin-right: 30px;
 }
 .payment-receiving{
@@ -71,16 +72,16 @@ option{
     flex-wrap: wrap;
 }
 
-.payment-transaction__input{
+.convert_block_item{
     outline: none;
 
 }
 .payment-transaction__title{
-    margin-top: 20px;
+    margin-top: 50px;
     padding-bottom: 20px;
 }
 .payment-receiving__title{
-    margin-top: 20px;
+    margin-top: 90px;
     padding-bottom: 20px;
 }
 .button_pay{
